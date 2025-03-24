@@ -1,18 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
-
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'docs'
+    outDir: 'dist'  // 确保输出目录设置正确
   },
-  // @ts-ignore
-  base: process.env.GH_PAGES ? '/demo-dapp-with-react-ui/' : '/',
-  server: {
-    fs: {
-      allow: ['../sdk', './'],
-    },
-  },
+  base: '/', // 在Vercel上部署使用根路径
 })
