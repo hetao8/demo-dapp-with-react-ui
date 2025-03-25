@@ -329,6 +329,7 @@ function App() {
                 aboutUrl: "https://www.echooo.xyz",
                 universalLink: "https://www.echooo.xyz",
                 bridgeUrl: "https://ton-connect-bridge.echooo.link/bridge",
+                deepLink: "echooo://echooo.valleysound.xyz/vss/ton-connect",
                 platforms: ["ios", "android", "macos", "windows", "linux"]
               }
             ]
