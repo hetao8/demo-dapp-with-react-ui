@@ -330,6 +330,7 @@ function App() {
                 universalLink: "https://echooo-ton.vercel.app",
                 bridgeUrl: "https://ton-connect-bridge.echooo.link/bridge",
                 deepLink: "echooo://echooo.valleysound.xyz/vss/ton-connect",
+                jsBridgeKey: 'echoooTonWallet',
                 platforms: ["ios", "android", "macos", "windows", "linux"]
               }
             ]
