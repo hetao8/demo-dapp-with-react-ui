@@ -310,7 +310,7 @@ function App() {
                 imageUrl: "https://cdn.echooo.xyz/front-end/fw/2025-01-20/f27b7b41-66b4-4b5d-b3d4-a3ac1d8b34ba.png",
                 aboutUrl: "https://www.echooo.xyz",
                 universalLink: "https://echooo-ton.vercel.app",
-                bridgeUrl: "http://35.160.247.173:8081/ton-connect",
+                bridgeUrl: "https://ton-connect-bridge.echooo.link/bridge",
                 deepLink: "echooo://echooo.valleysound.xyz/vss/ton-connect",
                 jsBridgeKey: 'echoooTonWallet',
                 platforms: ["ios", "android", "macos", "windows", "linux"],
